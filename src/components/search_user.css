@@ -1,0 +1,35 @@
+ .search-user-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #333;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .search-result-container {
+    min-height: 150px;
+    max-height: 150px; /* Adjust the maximum height as needed */
+    overflow-y: scroll;
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    padding: 10px;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  /* Add any additional styles for individual search result items */
+  .search-result-item {
+    margin-bottom: 10px;
+  }
+  
+  .search-result-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .search-user-container ul{
+    text-align: left;
+  }

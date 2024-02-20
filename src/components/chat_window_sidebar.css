@@ -1,0 +1,58 @@
+.sidebar-chat-item {
+    display: inline-flex;
+    width: 95%;
+    height: 100%;
+    align-items: center;
+    gap: 2px; /* You may adjust the gap as needed */
+    border-radius: 9px; /* Adjust the value for the desired border radius */
+    padding: 9px; /* Adjust the padding as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+    border:none;
+    cursor: pointer;
+    margin-top: 6px;
+    min-height: 42px;
+  }
+
+  .sidebar-chat-item:hover {
+    background-color: #444;
+  }
+
+
+  ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin: 5px;
+    gap: 5px;
+  }
+
+  .connection-icon{
+    width: 10px;
+    height: 10px;
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+
+  .glow-item{
+    background-color: #444;
+  }
+
+  .unread-indicator{
+      width: 10px;
+      height: 10px;
+      background-color: red;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 12px;
+      text-align: center;
+      line-height: 20px;
+  }
+  
+  .cws-indicators{
+    display: flex;
+    margin-left: auto;
+  }
